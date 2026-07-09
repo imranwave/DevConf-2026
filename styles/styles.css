@@ -56,6 +56,7 @@ nav {
 .banner-content-top h1 {
   font-size: 80px;
   font-family: "Inter", sans-serif;
+  font-weight: bold;
 }
 .banner-content-top p {
   font-size: 16px;
@@ -63,3 +64,58 @@ nav {
   font-weight: 300;
   font-family: "Inter", sans-serif;
 }
+/* speakers section styles start hare */
+.speakers-contaier {
+  padding: 0px 10%;
+  margin-bottom: 50px;
+}
+.speakers-contaier h2 {
+  margin: 50px 0px;
+  font-family: "Inter", sans-serif;
+  font-size: 55px;
+  text-align: center;
+  font-weight: bold;
+}
+article img {
+  max-width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+article {
+  
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+.category {
+  font-size: 12px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  color: #2563eb;
+  line-height: 18px;
+}
+.card {
+  border: 1px solid red;
+  border-radius: 10px;
+}
+.card-content {
+  padding: 20px;
+}
+.speakers-card {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+}
+.speaker-name {
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 28px;
+  font-family: "Inter", sans-serif;
+  color: #0d1b2a;
+}
+.speaker-title {
+  line-height: 21px;
+  font-family: "Inter", sans-serif;
+  color: #575757;
+  font-weight: 300;
+}
+/* speakers section styles start end */
