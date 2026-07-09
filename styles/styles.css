@@ -195,22 +195,115 @@ article {
   width: 100%;
   margin-top: 40px;
 }
-.pro{
-    background-color: #0D1B2A;
+.pro {
+  background-color: #0d1b2a;
 }
-.pro h6{
-color: #fff;
+.pro h6 {
+  color: #fff;
 }
-.pro h2{
-    color: #fff;
+.pro h2 {
+  color: #fff;
 }
-.pro p{
-    color: #aeaaaa;
+.pro p {
+  color: #aeaaaa;
 }
 .pro ul li {
-    color: #aeaaaa;
+  color: #aeaaaa;
 }
-.team{
-    background-color: #F8F9FB;
+.team {
+  background-color: #f8f9fb;
 }
 /* pricing section styles end hare*/
+
+/* call to action styles start hare */
+.call-to-action {
+  background-image:
+    linear-gradient(rgba(13, 27, 42, 0.8), rgba(13, 27, 42, 0.8)),
+    url("../assets/banner.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 50px 0px;
+}
+.call-to-action-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  text-align: center;
+  color: #fff;
+}
+.call-to-action-content h2 {
+  font-size: 3rem;
+  font-weight: bold;
+  font-family: "Inter", sans-serif;
+
+  color: #b2b4b6;
+}
+.call-to-action p {
+  font-weight: 300;
+  font-family: "Inter", sans-serif;
+  line-height: 1.6;
+  margin: 15px 0px;
+}
+.call-to-action-btn {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  margin: 30px 0px;
+}
+.btn-reg {
+  background-color: #1d4ed8;
+  padding: 15px 50px;
+  font-weight: bold;
+  font-family: "Inter", sans-serif;
+  color: #fff;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.btn-sche {
+  background-color: transparent;
+  padding: 15px 50px;
+  font-weight: bold;
+  font-family: "Inter", sans-serif;
+  color: #fff;
+  border-radius: 5px;
+  text-decoration: none;
+  border: 1px solid #1d4ed8;
+}
+/* call to action styles end hare */
+.footer-container{
+    background-color: #0D1B2A;
+    padding: 20px 10%;
+}
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.footer-right {
+    display: flex;
+    gap: 30px;
+    color: #fff;
+}
+.divide {
+    border:none;
+    height: 1px;
+    background-color: #414142;
+    width: 100%;
+    margin: 15px auto;
+}
+.privacy-policy-content {
+    display: flex;
+    justify-content: space-between;
+}
+.privacy-policy-right {
+    display: flex;
+    gap: 20px;
+}
+.privacy-policy-left, .privacy-policy-right{
+    color: rgb(181, 175, 175);
+    font-weight: 300;
+    font-family: "Inter", sans-serif;
+}
