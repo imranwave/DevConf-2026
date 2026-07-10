@@ -218,10 +218,10 @@ article {
 /* call to action styles start hare */
 .call-to-action {
   background-image:
-    linear-gradient(rgba(13, 27, 42, 0.8), rgba(13, 27, 42, 0.8)),
-    url("../assets/banner.jpg");
+    linear-gradient(rgba(13, 27, 42, 0.9), rgba(13, 27, 42, 0.9)),
+    url("../assets/call-to-action.jpg");
   background-size: cover;
-  background-position: center;
+  background-position:center;
   background-repeat: no-repeat;
   margin: 50px 0px;
 }
